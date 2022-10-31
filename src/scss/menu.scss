@@ -1,0 +1,43 @@
+.menu-list-container {
+  margin: 2rem 0;
+
+  .menu-list-title {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .menu-img {
+      width: 280px;
+      height: 100px;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      border: 3px solid var(--primary-color-1);
+      border-radius: 5px;
+      background: var(--primary-color-4);
+      padding: 0.5rem 1rem;
+    }
+
+    .item-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 88%;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+
+      .menu-price {
+        color: var(--primary-color-1);
+      }
+    }
+
+    .description-text {
+      color: #888;
+    }
+  }
+}

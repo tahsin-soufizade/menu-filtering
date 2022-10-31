@@ -1,0 +1,23 @@
+.categories-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  .category-btn {
+    padding: 0.4rem 1rem;
+    background: var(--primary-color-4);
+    border-radius: 5px;
+    margin: 0 1rem;
+    border: 2px solid var(--primary-color-1);
+    &:hover {
+      background: var(--primary-color-3);
+    }
+
+    &:focus {
+      background: var(--primary-color-1);
+      color: #fff;
+    }
+  }
+}
